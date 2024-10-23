@@ -1,4 +1,4 @@
-import { Link } from "@nextui-org/link";
+import { Link } from "@nextui-org/react";
 
 import { Head } from "./head";
 
@@ -20,11 +20,11 @@ export default function DefaultLayout({
         <Link
           isExternal
           className="flex items-center gap-1 text-current"
-          href="https://nextui-docs-v2.vercel.app?utm_source=web3-next-ui"
+          href="https://github.com/TuoLan/web3-next-ui"
           title="nextui.org homepage"
         >
           <span className="text-default-600">Powered by</span>
-          <p className="text-primary">NextUI</p>
+          <p className="text-primary">web3-next-ui</p>
         </Link>
       </footer>
     </div>
