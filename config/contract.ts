@@ -715,4 +715,4 @@ export const stakeAbi = [
   }
 ] as const
 
-export const stakeAddress = "0x0DBE8699f82c388b7c44F7dE4D3c097bcf82EfFB"
+export const stakeAddress = "0x066404B269e0D548b2FB218B583Ff3317DC80e39"

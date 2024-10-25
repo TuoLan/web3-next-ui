@@ -21,7 +21,7 @@ export default function App({ Component, pageProps }: AppProps) {
       <NextThemesProvider>
         <WagmiProvider config={config}>
           <QueryClientProvider client={client}>
-            <RainbowKitProvider>
+            <RainbowKitProvider locale="en">
               <Component {...pageProps} />
             </RainbowKitProvider>
           </QueryClientProvider>

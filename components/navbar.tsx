@@ -65,6 +65,7 @@ export const Navbar = () => {
                 )}
                 color="foreground"
                 href={item.href}
+                target={item.label === 'Stake' ? '_self' : '_blank'}
               >
                 {item.label}
               </NextLink>

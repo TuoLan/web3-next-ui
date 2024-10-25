@@ -5,24 +5,20 @@ export const siteConfig = {
   description: "Calf",
   navItems: [
     {
-      label: "Home",
+      label: "Stake",
       href: "/",
     },
     {
       label: "Docs",
-      href: "/docs",
-    },
-    {
-      label: "Pricing",
-      href: "/pricing",
+      href: "https://www.google.com/404",
     },
     {
       label: "Blog",
-      href: "/blog",
+      href: "https://www.google.com/404",
     },
     {
       label: "About",
-      href: "/about",
+      href: "https://www.google.com/404",
     },
   ],
   navMenuItems: [
